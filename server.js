@@ -9,6 +9,7 @@ const server = http.createServer((req , res) => {
     console.log('request made');
 
     // listening  to the port and local host
+    // this will atlest 1 parameter inside it
     server.listen(3000 , 'localhost' , () => {
         console.log('listening to the local host');
     })
