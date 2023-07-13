@@ -23,7 +23,6 @@ const server = http.createServer((req, res) => {
     default:
       path += "404.html";
       break;
-
   }
 
   fs.readFile(path, (err, data) => {
