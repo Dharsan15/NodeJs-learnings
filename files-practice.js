@@ -22,6 +22,16 @@ fs.writeFile('./docs/text1.txt' , 'this is written in the file' , () => {
     console.log('new file created');
 })
 
+
+// writing files in async manner 
+
+async function fileops()
+{
+    fsPromises.writefile(path.join(__dirname , ''))
+     
+}
+
+
 // creating directories
 
 if(!fs.existsSync('./files1'))
